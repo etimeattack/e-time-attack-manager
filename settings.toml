@@ -1,4 +1,3 @@
-[default]
 tmp_path = ".tmp"
-raw_restuls_path = "raw_restuls"
-summaries_path = "summaries"
+raw_restuls_path = "resources/raw_results"
+summaries_path = "resources/summaries"

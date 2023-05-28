@@ -1,6 +1,7 @@
 
 from dynaconf import Dynaconf
 
-settings = Dynaconf(
+cfg = Dynaconf(
     settings_files=['settings.toml', '.secrets.toml'],
+
 )
