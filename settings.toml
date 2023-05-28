@@ -1,0 +1,4 @@
+[default]
+tmp_path = ".tmp"
+raw_restuls_path = "raw_restuls"
+summaries_path = "summaries"
