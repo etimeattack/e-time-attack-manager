@@ -9,8 +9,8 @@ EVENTS_TABLE_NAME = 'laps'
 
 class LapsParser(ResultParser):
 
-    def __init__(self, event_id, report_name, sectors_amount=3):
-        super().__init__(event_id, report_name)
+    def __init__(self, event_id, report_name, sectors_amount=3, result_url=None):
+        super().__init__(event_id, report_name, result_url=result_url)
         self.sectors_amount = sectors_amount
 
     def generate(self):

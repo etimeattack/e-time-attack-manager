@@ -2,3 +2,4 @@ pandas>=2.0.0,<3.0.0
 duckdb>0.1.0,<1.0.0
 dynaconf<4.0.0
 click<9.0.0
+requests
